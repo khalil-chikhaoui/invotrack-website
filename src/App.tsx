@@ -1,21 +1,17 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router";
-import { ScrollToTop } from "./components/common/ScrollToTop";
-import Landing from "./pages/Landing";
+import Home from "./pages/Home";
 
 export default function App() {
   return (
     <>
       <Router>
-        <ScrollToTop />
-        <Routes>
-          {/* Dashboard Layout */}
-        
-  <Route path="/" element={<Landing />} />
 
-     
-        
-        </Routes>
+          <Routes>
+            {/* Dashboard Layout */}
+            <Route path="/" element={<Home />} />
+          </Routes>
+      
       </Router>
     </>
-  );
+  ); 
 }
