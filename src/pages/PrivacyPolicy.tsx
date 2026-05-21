@@ -73,7 +73,8 @@ export default function PrivacyPolicy() {
                 });
                 return Array.isArray(listItems) && listItems.length > 0 ? (
                   <ul className="list-disc list-inside space-y-2 ml-2">
-                    {listItems.map((item: string, idx: number) => (
+                    {/* FIXED HERE: Casting listItems as string[] */}
+                    {(listItems as string[]).map((item, idx) => (
                       <li key={idx} className="text-slate-600 dark:text-slate-400">
                         {item}
                       </li>
