@@ -1,6 +1,8 @@
 {
      "navbar": {
+    "home": "Accueil",
     "features": "Fonctionnalités",
+    "about": "À propos",
     "roles": "Rôles",
     "contact": "Contact",
     "dashboard": "Tableau de bord",
@@ -98,7 +100,7 @@
       "product": {
         "title": "Produit",
         "features": "Fonctionnalités",
-        "roles": "Rôles",
+        "contact": "Contact",
         "dashboard": "Tableau de bord"
       },
       "company": {
@@ -108,7 +110,156 @@
         "terms": "Conditions"
       }
     }
+  },
+  "about": {
+    "backHome": "Retour à l'accueil",
+    "title": "À propos d'Invotrack",
+    "subtitle": "Transformer la gestion des entreprises par l'automatisation intelligente et le design intuitif.",
+    "mission": {
+      "title": "Notre Mission",
+      "description1": "Chez Invotrack, nous croyons que chaque entreprise – quelle que soit sa taille – mérite d'accéder à des outils de classe mondiale. Notre mission est de responsabiliser les équipes avec une plateforme intuitive et basée sur les données qui simplifie les opérations complexes et stimule la croissance durable.",
+      "description2": "Nous nous engageons à éliminer les frictions des flux de travail quotidiens, permettant aux entreprises de se concentrer sur ce qu'elles font le mieux : fournir une valeur exceptionnelle à leurs clients."
+    },
+    "why": {
+      "title": "Pourquoi choisir Invotrack",
+      "items": {
+        "reliability": {
+          "title": "Fiabilité inégalée",
+          "desc": "Infrastructure de classe entreprise avec garantie de disponibilité de 99,9%. Vos données d'entreprise sont toujours accessibles et sécurisées."
+        },
+        "innovation": {
+          "title": "Innovation Continue",
+          "desc": "Nous évoluons constamment avec votre entreprise. Les mises à jour régulières et les perspectives basées sur l'IA vous gardent en avance sur la concurrence."
+        },
+        "support": {
+          "title": "Assistance Experte",
+          "desc": "Équipe d'assistance dédiée disponible pour vous aider. De l'onboarding à l'optimisation, nous sommes avec vous à chaque étape."
+        },
+        "security": {
+          "title": "Sécurité de Niveau Bancaire",
+          "desc": "Le chiffrement conforme aux normes industrielles et les certifications de conformité protègent vos informations commerciales sensibles."
+        }
+      }
+    },
+    "values": {
+      "title": "Nos Valeurs Fondamentales",
+      "description": "Ces principes guident tout ce que nous faisons et façonnent la manière dont nous servons nos clients.",
+      "items": {
+        "simplicity": {
+          "title": "Simplicité",
+          "desc": "Les opérations complexes simplifiées. Nous éliminons la complexité inutile pour que vous puissiez vous concentrer sur la croissance."
+        },
+        "transparency": {
+          "title": "Transparence",
+          "desc": "Tarification claire, communication honnête et politiques ouvertes. Pas de frais cachés, pas de surprises."
+        },
+        "growth": {
+          "title": "Mentalité de Croissance",
+          "desc": "Nous réussissons quand vous réussissez. Vos réalisations alimentent notre innovation et notre engagement envers l'excellence."
+        }
+      }
+    }
+  },
+  "privacy": {
+    "backHome": "Retour à l'accueil",
+    "title": "Politique de Confidentialité",
+    "lastUpdated": "Dernière mise à jour : Janvier 2026",
+    "introduction": "Chez Invotrack, nous prenons votre confidentialité au sérieux. Cette Politique de Confidentialité explique comment nous collectons, utilisons, divulguons et sécurisons vos informations.",
+    "sections": {
+      "collection": {
+        "title": "Informations Que Nous Collectons",
+        "description1": "Nous collectons les informations que vous fournissez directement, y compris les détails d'inscription du compte, les informations commerciales, les données de paiement et les préférences de communication.",
+        "description2": "Nous collectons également automatiquement les données d'utilisation via des cookies et des analyses pour améliorer votre expérience. Cela inclut les informations d'appareil, l'adresse IP et les modèles d'interaction.",
+        "list": ["Identifiants de compte et informations de profil", "Données commerciales et informations client", "Dossiers de paiement et de transaction", "Historique de communication", "Analyses d'appareil et d'utilisation"]
+      },
+      "usage": {
+        "title": "Comment Nous Utilisons Vos Informations",
+        "description1": "Vos informations nous permettent de fournir, maintenir et améliorer nos services. Nous les utilisons pour traiter les transactions, communiquer avec vous et assurer la sécurité de la plateforme.",
+        "description2": "Nous analysons les modèles d'utilisation pour améliorer les fonctionnalités et identifier les opportunités de mieux vous servir.",
+        "list": ["Livraison et gestion des services", "Traitement des transactions et facturation", "Surveillance de la sécurité et prévention de la fraude", "Assistance aux clients et communications", "Analyses et amélioration des services"]
+      },
+      "sharing": {
+        "title": "Partage d'Informations",
+        "description1": "Nous ne vendons pas vos données personnelles. Nous ne partageons les informations qu'avec des partenaires de confiance qui nous aident à exploiter notre plateforme.",
+        "description2": "Ces partenaires sont contractuellement tenus de maintenir la confidentialité et la sécurité de vos informations.",
+        "list": ["Partenaires de traitement des paiements (conformes PCI)", "Fournisseurs d'infrastructure cloud", "Services de sécurité et d'analyse", "Conformité légale si requise par la loi"]
+      },
+      "security": {
+        "title": "Mesures de Sécurité",
+        "description1": "Nous implémentons des protocoles de sécurité de pointe, y compris le chiffrement de bout en bout, les audits de sécurité réguliers et l'authentification multifacteur.",
+        "description2": "Bien que nous maintenions des pratiques de sécurité robustes, aucun système n'est complètement immune aux violations. Nous sommes transparents sur les incidents et réagissons immédiatement.",
+        "list": ["Chiffrement SSL 256 bits", "Tests de pénétration réguliers", "Authentification multifacteur", "Chiffrement des données en transit et au repos", "Conformité RGPD et CCPA"]
+      },
+      "retention": {
+        "title": "Conservation des Données",
+        "description1": "Nous conservons vos données aussi longtemps que nécessaire pour fournir des services et nous conformer aux obligations légales. Lorsque vous fermez votre compte, nous supprimons vos données en toute sécurité dans les 30 jours.",
+        "description2": "Les copies de sauvegarde sont conservées pendant une période limitée pour permettre la récupération en cas d'urgence."
+      },
+      "rights": {
+        "title": "Vos Droits de Confidentialité",
+        "description1": "Selon votre localisation, vous avez des droits concernant vos données personnelles. Vous pouvez demander l'accès, la correction, la suppression ou la portabilité de vos informations.",
+        "description2": "Pour exercer ces droits, contactez notre équipe de confidentialité. Nous répondons à toutes les demandes dans les 30 jours.",
+        "list": ["Accéder à vos données personnelles", "Corriger les informations inexactes", "Supprimer votre compte et vos données", "Exporter vos données", "Vous désabonner des communications marketing"]
+      },
+      "contact": {
+        "title": "Nous Contacter",
+        "description1": "Si vous avez des questions sur cette Politique de Confidentialité ou nos pratiques de données, veuillez nous contacter à contact@invotrack.de.",
+        "description2": "Nous nous engageons à travailler avec vous pour résoudre toute préoccupation en matière de confidentialité."
+      }
+    },
+    "contactInfo": "Des questions sur votre confidentialité ? Contactez-nous à contact@invotrack.de. Nous répondons dans les 48 heures."
+  },
+  "terms": {
+    "backHome": "Retour à l'accueil",
+    "title": "Conditions d'Utilisation",
+    "lastUpdated": "Dernière mise à jour : Janvier 2026",
+    "introduction": "Ces Conditions d'Utilisation régissent votre accès à et votre utilisation de la plateforme et des services Invotrack. En accédant à notre plateforme, vous acceptez d'être lié par ces conditions.",
+    "sections": {
+      "agreement": {
+        "title": "Accord aux Conditions",
+        "description1": "En créant un compte et en utilisant Invotrack, vous déclarez avoir au moins 18 ans et être autorisé à conclure cet accord au nom de votre entreprise.",
+        "description2": "Vous êtes responsable du maintien de la confidentialité de vos identifiants de compte et de toutes les activités qui se produisent sur votre compte."
+      },
+      "usage": {
+        "title": "Utilisation Acceptable",
+        "description1": "Vous acceptez d'utiliser Invotrack uniquement à des fins légales et de manière à ne pas violer les droits d'autrui.",
+        "description2": "Le comportement interdit comprend le harcèlement, l'obscénité, le spam, la violation des droits d'auteur et toute activité illégale.",
+        "list": ["N'utilisez pas la plateforme pour des activités illégales", "Ne transmettez pas de logiciels malveillants", "Ne tentez pas l'accès non autorisé", "Ne participez pas à des transactions frauduleuses", "Ne vous faites pas passer pour d'autres utilisateurs"]
+      },
+      "intellectual": {
+        "title": "Droits de Propriété Intellectuelle",
+        "description1": "Invotrack possède tous les droits de propriété intellectuelle liés à la plateforme, y compris les logiciels, le design, le contenu et les marques. Votre utilisation vous accorde une licence limitée et non exclusive.",
+        "description2": "Vous conservez la propriété de vos données commerciales et informations client. En utilisant notre plateforme, vous nous accordez une licence pour traiter ces données.",
+        "list": ["Invotrack possède la PI de la plateforme", "Vous possédez vos données commerciales", "Sous licence pour usage personnel/commercial", "Aucune revente ou redistribution autorisée", "Respectez les droits de PI tiers"]
+      },
+      "liability": {
+        "title": "Limitation de Responsabilité",
+        "description1": "Invotrack est fourni 'tel quel' sans garanties. Dans la mesure maximale autorisée par la loi, nous ne sommes pas responsables des dommages indirects.",
+        "description2": "Notre responsabilité totale est limitée aux frais que vous avez payés au cours des 12 derniers mois.",
+        "list": ["Plateforme fournie tel quel", "Pas de garanties implicites", "Nous ne sommes pas responsables de la perte de données", "Pas de responsabilité pour les services tiers", "Responsabilité limitée aux 12 derniers mois"]
+      },
+      "termination": {
+        "title": "Résiliation",
+        "description1": "Vous pouvez résilier votre compte à tout moment. Invotrack peut résilier votre compte si vous violez ces conditions.",
+        "description2": "À la résiliation, votre accès prend fin immédiatement, mais vous pouvez exporter vos données dans les 30 jours."
+      },
+      "modifications": {
+        "title": "Modifications des Conditions",
+        "description1": "Nous pouvons modifier ces conditions à tout moment. Nous vous informerons des modifications importantes par email au moins 30 jours à l'avance.",
+        "description2": "L'utilisation continue d'Invotrack après les modifications signifie que vous acceptez les conditions mises à jour."
+      },
+      "governing": {
+        "title": "Droit Applicable",
+        "description1": "Ces conditions sont régies par la loi allemande. Tous les différends seront résolus par arbitrage ou les tribunaux allemands.",
+        "description2": "Ce choix de loi ne vous prive d'aucune protection en vertu des lois obligatoires de protection des consommateurs."
+      },
+      "contact": {
+        "title": "Informations de Contact",
+        "description1": "Pour toute question sur ces Conditions d'Utilisation, veuillez nous contacter à contact@invotrack.de.",
+        "description2": "Nous sommes heureux de clarifier toute condition et de répondre à vos préoccupations."
+      }
+    },
+    "contactInfo": "Vous avez des questions sur nos conditions ? Contactez-nous à contact@invotrack.de. Nous sommes heureux de vous aider."
   }
-
 
 }

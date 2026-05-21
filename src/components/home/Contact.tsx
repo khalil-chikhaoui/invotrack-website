@@ -33,7 +33,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-bold text-slate-900 dark:text-white">{t("contact.support.title")}</h4>
-                  <p className="text-slate-500 dark:text-slate-400">support@invotrack.de</p>
+                  <p className="text-slate-500 dark:text-slate-400">contact@invotrack.de</p>
                 </div>
               </div>
             </div>
@@ -68,7 +68,7 @@ export default function Contact() {
                       required
                       type="text"
                       className="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-white border border-slate-200 dark:border-slate-800 focus:border-brand-500 focus:ring-2 focus:ring-brand-200 dark:focus:ring-brand-900 outline-none transition"
-                      placeholder={t("contact.form.placeholders.firstName")}
+                      placeholder=""
                     />
                   </div>
                   <div>
@@ -79,7 +79,7 @@ export default function Contact() {
                       required
                       type="text"
                       className="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-white border border-slate-200 dark:border-slate-800 focus:border-brand-500 focus:ring-2 focus:ring-brand-200 dark:focus:ring-brand-900 outline-none transition"
-                      placeholder={t("contact.form.placeholders.lastName")}
+                      placeholder=""
                     />
                   </div>
                 </div>
@@ -92,7 +92,7 @@ export default function Contact() {
                     required
                     type="email"
                     className="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-white border border-slate-200 dark:border-slate-800 focus:border-brand-500 focus:ring-2 focus:ring-brand-200 dark:focus:ring-brand-900 outline-none transition"
-                    placeholder="john@company.com"
+                    placeholder=""
                   />
                 </div>
 
@@ -104,7 +104,7 @@ export default function Contact() {
                     required
                     rows={4}
                     className="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-white border border-slate-200 dark:border-slate-800 focus:border-brand-500 focus:ring-2 focus:ring-brand-200 dark:focus:ring-brand-900 outline-none transition resize-none"
-                    placeholder={t("contact.form.placeholders.message")}
+                    placeholder=""
                   ></textarea>
                 </div>
 

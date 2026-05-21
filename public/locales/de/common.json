@@ -1,6 +1,8 @@
 {
     "navbar": {
+    "home": "Startseite",
     "features": "Funktionen",
+    "about": "Über uns",
     "roles": "Rollen",
     "contact": "Kontakt",
     "dashboard": "Dashboard",
@@ -97,7 +99,7 @@
       "product": {
         "title": "Produkt",
         "features": "Funktionen",
-        "roles": "Rollen",
+        "contact": "Kontakt",
         "dashboard": "Dashboard"
       },
       "company": {
@@ -107,5 +109,155 @@
         "terms": "AGB"
       }
     }
+  },
+  "about": {
+    "backHome": "Zurück zur Startseite",
+    "title": "Über Invotrack",
+    "subtitle": "Geschäftsverwaltung durch intelligente Automatisierung und intuitive Gestaltung transformieren.",
+    "mission": {
+      "title": "Unsere Mission",
+      "description1": "Bei Invotrack glauben wir, dass jedes Unternehmen – unabhängig von der Größe – Zugang zu Enterprise-Tools verdient. Unsere Mission ist es, Teams mit einer intuitiven, datengesteuerten Plattform auszustatten, die komplexe Vorgänge vereinfacht und nachhaltiges Wachstum fördert.",
+      "description2": "Wir sind verpflichtet, Reibung aus alltäglichen Arbeitsabläufen zu entfernen und Unternehmen auf das zu konzentrieren, was sie am besten können: ihren Kunden außergewöhnliche Leistungen erbringen."
+    },
+    "why": {
+      "title": "Warum Invotrack wählen",
+      "items": {
+        "reliability": {
+          "title": "Unvergleichliche Zuverlässigkeit",
+          "desc": "Enterprise-Infrastruktur mit 99,9% Verfügbarkeitsgarantie. Ihre Geschäftsdaten sind immer zugänglich und sicher."
+        },
+        "innovation": {
+          "title": "Kontinuierliche Innovation",
+          "desc": "Wir entwickeln uns ständig mit Ihrem Unternehmen weiter. Regelmäßige Updates und KI-gesteuerte Einblicke halten Sie im Wettbewerb vorne."
+        },
+        "support": {
+          "title": "Fachkundige Unterstützung",
+          "desc": "Dediziertes Support-Team steht zur Verfügung. Von Onboarding bis Optimierung sind wir bei jedem Schritt dabei."
+        },
+        "security": {
+          "title": "Bankengrade Sicherheit",
+          "desc": "Branchenstandard-Verschlüsselung und Compliance-Zertifikate schützen Ihre sensiblen Geschäftsinformationen."
+        }
+      }
+    },
+    "values": {
+      "title": "Unsere Kernwerte",
+      "description": "Diese Grundsätze leiten alles, was wir tun, und prägen, wie wir unsere Kunden bedienen.",
+      "items": {
+        "simplicity": {
+          "title": "Einfachheit",
+          "desc": "Komplexe Operationen vereinfacht. Wir beseitigen unnötige Komplexität, damit Sie sich auf Geschäftswachstum konzentrieren können."
+        },
+        "transparency": {
+          "title": "Transparenz",
+          "desc": "Klare Preise, ehrliche Kommunikation und offene Richtlinien. Keine versteckten Gebühren, keine Überraschungen."
+        },
+        "growth": {
+          "title": "Wachstumsmindset",
+          "desc": "Wir haben Erfolg, wenn Sie Erfolg haben. Ihre Erfolge treiben unsere Innovation und Verpflichtung zur Exzellenz voran."
+        }
+      }
+    }
+  },
+  "privacy": {
+    "backHome": "Zurück zur Startseite",
+    "title": "Datenschutzerklärung",
+    "lastUpdated": "Zuletzt aktualisiert: Januar 2026",
+    "introduction": "Bei Invotrack nehmen wir Ihren Datenschutz ernst. Diese Datenschutzerklärung erläutert, wie wir Ihre Informationen erfassen, nutzen, offenlegen und schützen.",
+    "sections": {
+      "collection": {
+        "title": "Informationen, die wir erfassen",
+        "description1": "Wir erfassen Informationen, die Sie direkt bereitstellen, einschließlich Kontoregistrierungsdaten, Geschäftsinformationen, Zahlungsdaten und Kommunikationseinstellungen.",
+        "description2": "Wir erfassen auch automatisch Nutzungsdaten durch Cookies und Analysen, um Ihr Erlebnis zu verbessern. Dies umfasst Geräteinformationen, IP-Adresse und Interaktionsmuster.",
+        "list": ["Kontoanmeldedaten und Profilinformationen", "Geschäftsdaten und Kundeninformationen", "Zahlungs- und Transaktionsaufzeichnungen", "Kommunikationsverlauf", "Geräte- und Nutzungsanalysen"]
+      },
+      "usage": {
+        "title": "Wie wir Ihre Informationen nutzen",
+        "description1": "Ihre Informationen ermöglichen es uns, Dienste bereitzustellen, zu erhalten und zu verbessern. Wir nutzen sie zur Transaktionsverarbeitung, zur Kommunikation und zur Sicherung der Plattform.",
+        "description2": "Wir analysieren Nutzungsmuster, um Funktionen zu verbessern und Möglichkeiten zu identifizieren, Sie besser zu unterstützen.",
+        "list": ["Dienstleistungserbringung und Kontoverwaltung", "Transaktionsverarbeitung und Abrechnung", "Sicherheitsüberwachung und Betrugsprävention", "Kundenunterstützung und Kommunikation", "Analytik und Serviceverbesserung"]
+      },
+      "sharing": {
+        "title": "Weitergabe von Informationen",
+        "description1": "Wir verkaufen Ihre persönlichen Daten nicht. Wir geben Informationen nur an vertrauenswürdige Partner weiter, die uns bei der Plattformverwaltung helfen – Zahlungsabwickler, Cloud-Anbieter und Sicherheitsanbieter.",
+        "description2": "Diese Partner sind vertraglich verpflichtet, die Vertraulichkeit und Sicherheit Ihrer Informationen zu wahren.",
+        "list": ["Zahlungsabwicklungspartner (PCI-konform)", "Cloud-Infrastruktur-Anbieter", "Sicherheits- und Analysedienste", "Rechtliche Einhaltung bei gesetzlicher Anforderung"]
+      },
+      "security": {
+        "title": "Sicherheitsmaßnahmen",
+        "description1": "Wir implementieren branchenführende Sicherheitsprotokolle einschließlich End-to-End-Verschlüsselung, regelmäßiger Sicherheitsprüfungen und Multi-Faktor-Authentifizierung.",
+        "description2": "Obwohl wir robuste Sicherheitspraktiken beibehalten, ist kein System vollständig gegen Verstöße immun. Wir sind bei Vorfällen transparent und reagieren sofort.",
+        "list": ["256-Bit-SSL-Verschlüsselung", "Regelmäßiges Penetrationstesting", "Multi-Faktor-Authentifizierung", "Datenverschlüsselung im Transit und in Ruhe", "Einhaltung von GDPR und CCPA"]
+      },
+      "retention": {
+        "title": "Datenspeicherung",
+        "description1": "Wir speichern Ihre Daten solange wie nötig, um Dienste bereitzustellen und gesetzliche Anforderungen zu erfüllen. Wenn Sie Ihr Konto schließen, löschen wir Ihre Daten sicher innerhalb von 30 Tagen.",
+        "description2": "Sicherungskopien werden für einen begrenzten Zeitraum aufbewahrt, um eine Wiederherstellung im Notfall zu ermöglichen."
+      },
+      "rights": {
+        "title": "Ihre Datenschutzrechte",
+        "description1": "Je nach Ihrem Standort haben Sie Rechte bezüglich Ihrer persönlichen Daten. Sie können Zugriff, Berichtigung, Löschung oder Portabilität Ihrer Informationen anfordern.",
+        "description2": "Um diese Rechte auszuüben, kontaktieren Sie unser Datenschutz-Team. Wir antworten auf alle Anfragen innerhalb von 30 Tagen.",
+        "list": ["Auf Ihre persönlichen Daten zugreifen", "Ungenaue Informationen korrigieren", "Ihr Konto und Ihre Daten löschen", "Ihre Daten exportieren", "Sich von Marketing-Mitteilungen abmelden"]
+      },
+      "contact": {
+        "title": "Kontaktieren Sie uns",
+        "description1": "Wenn Sie Fragen zu dieser Datenschutzerklärung oder unseren Datenpraktiken haben, wenden Sie sich bitte an unser Datenschutz-Team unter contact@invotrack.de.",
+        "description2": "Wir sind verpflichtet, mit Ihnen zusammenzuarbeiten, um Datenschutzbedenken zu klären."
+      }
+    },
+    "contactInfo": "Fragen zu Ihrem Datenschutz? Kontaktieren Sie uns unter contact@invotrack.de. Wir antworten innerhalb von 48 Stunden."
+  },
+  "terms": {
+    "backHome": "Zurück zur Startseite",
+    "title": "Nutzungsbedingungen",
+    "lastUpdated": "Zuletzt aktualisiert: Januar 2026",
+    "introduction": "Diese Nutzungsbedingungen regeln Ihren Zugriff auf und Ihre Nutzung der Invotrack-Plattform und -Dienste. Durch den Zugriff auf unsere Plattform stimmen Sie zu, an diese Bedingungen gebunden zu sein.",
+    "sections": {
+      "agreement": {
+        "title": "Vereinbarung zu Bedingungen",
+        "description1": "Durch das Erstellen eines Kontos und die Nutzung von Invotrack versichern Sie, dass Sie mindestens 18 Jahre alt sind und berechtigt sind, diese Vereinbarung im Namen Ihres Unternehmens einzugehen.",
+        "description2": "Sie sind verantwortlich für die Wahrung der Vertraulichkeit Ihrer Kontoanmeldedaten und für alle Aktivitäten in Ihrem Konto."
+      },
+      "usage": {
+        "title": "Akzeptable Nutzung",
+        "description1": "Sie stimmen zu, Invotrack nur für rechtmäßige Zwecke zu nutzen und auf Weise, die die Rechte anderer nicht verletzen.",
+        "description2": "Verbotenes Verhalten umfasst Belästigung, Obszönität, Spam, Verletzung von Urheberrechten und jede illegale Aktivität.",
+        "list": ["Nutzen Sie die Plattform nicht für illegale Aktivitäten", "Übertragen Sie keine Malware oder schädlichen Code", "Versuchen Sie keinen unbefugten Zugriff", "Führen Sie keine betrügerischen Transaktionen durch", "Geben Sie sich nicht als andere Nutzer aus"]
+      },
+      "intellectual": {
+        "title": "Urheberrechte",
+        "description1": "Invotrack besitzt alle Urheberrechte bezüglich der Plattform, einschließlich Software, Design, Inhalte und Marken. Ihre Nutzung erteilt Ihnen eine begrenzte, nicht exklusive Lizenz.",
+        "description2": "Sie behalten das Eigentum an Ihren Geschäftsdaten und Kundeninformationen. Durch die Nutzung unserer Plattform erteilen Sie uns eine Lizenz, diese Daten zu verarbeiten.",
+        "list": ["Invotrack besitzt Plattform-IP", "Sie besitzen Ihre Geschäftsdaten", "Lizenziert für persönliche/geschäftliche Nutzung", "Kein Wiederverkauf oder Umverteilung erlaubt", "Respektieren Sie Drittanbieter-IP-Rechte"]
+      },
+      "liability": {
+        "title": "Haftungsbeschränkung",
+        "description1": "Invotrack wird 'wie besehen' ohne Gewährleistungen bereitgestellt. Im größtmöglichen Umfang sind wir nicht haftbar für indirekte, zufällige oder Folgeschäden.",
+        "description2": "Unsere Gesamthaftung ist auf die Gebühren beschränkt, die Sie in den letzten 12 Monaten gezahlt haben.",
+        "list": ["Plattform als-ist bereitgestellt", "Keine impliziten Garantien", "Wir haften nicht für Datenverlust", "Keine Haftung für Drittanbieterdienste", "Haftung begrenzt auf 12-Monats-Gebühren"]
+      },
+      "termination": {
+        "title": "Kündigung",
+        "description1": "Sie können Ihr Konto jederzeit kündigen. Invotrack kann Ihr Konto kündigen, wenn Sie gegen diese Bedingungen verstoßen.",
+        "description2": "Nach der Kündigung endet Ihr Zugriff sofort, Sie können Ihre Daten jedoch innerhalb von 30 Tagen exportieren."
+      },
+      "modifications": {
+        "title": "Änderungen der Bedingungen",
+        "description1": "Wir können diese Bedingungen jederzeit ändern. Wir werden Sie mindestens 30 Tage vorher per E-Mail über wesentliche Änderungen benachrichtigen.",
+        "description2": "Die weitere Nutzung von Invotrack nach Änderungen bedeutet, dass Sie die aktualisierten Bedingungen akzeptieren."
+      },
+      "governing": {
+        "title": "Anwendbares Recht",
+        "description1": "Diese Bedingungen unterliegen deutschem Recht. Alle Streitigkeiten werden durch Schiedsverfahren oder Gerichte in Deutschland beigelegt.",
+        "description2": "Diese Rechtswahl entzieht Ihnen keinen Schutz unter zwingenden Verbraucherschutzgesetzen."
+      },
+      "contact": {
+        "title": "Kontaktinformationen",
+        "description1": "Bei Fragen zu diesen Nutzungsbedingungen kontaktieren Sie bitte unser Rechtsteam unter contact@invotrack.de.",
+        "description2": "Wir sind gerne bereit, die Bedingungen zu klären."
+      }
+    },
+    "contactInfo": "Haben Sie Fragen zu unseren Bedingungen? Kontaktieren Sie uns unter contact@invotrack.de. Gerne helfen wir Ihnen."
   }
 }

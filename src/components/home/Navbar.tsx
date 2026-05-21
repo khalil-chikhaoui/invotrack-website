@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Link, useLocation, useNavigate } from "react-router";
 import { Icons } from "./HomeIcons";
 import { ThemeToggleButton } from "./ThemeToggleButton";
 import LanguageSelector from "../LanguageSelector";
@@ -7,21 +8,46 @@ import LanguageSelector from "../LanguageSelector";
 export default function Navbar() {
   const { t, i18n } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
 
-  const handleSmoothScroll = (e: React.MouseEvent, targetId: string) => {
+  const handleSectionNavigation = (e: React.MouseEvent, sectionId: string) => {
     e.preventDefault();
-    setIsMenuOpen(false); 
-    if (targetId === "top") {
+    setIsMenuOpen(false);
+    
+    if (location.pathname === "/") {
+      // Already on home: scroll directly to section
+      const element = document.querySelector(sectionId);
+      if (element) {
+        const headerOffset = 80;
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.scrollY - headerOffset;
+        window.scrollTo({ top: offsetPosition, behavior: "smooth" });
+      }
+    } else {
+      // Not on home: navigate to home first, then scroll
+      navigate("/");
+      setTimeout(() => {
+        const element = document.querySelector(sectionId);
+        if (element) {
+          const headerOffset = 80;
+          const elementPosition = element.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.scrollY - headerOffset;
+          window.scrollTo({ top: offsetPosition, behavior: "smooth" });
+        }
+      }, 100);
+    }
+  };
+
+  const handleLogoClick = () => {
+    if (location.pathname === "/") {
+      // On home page: scroll to top
       window.scrollTo({ top: 0, behavior: "smooth" });
-      return;
+    } else {
+      // On other pages: navigate to home
+      navigate("/");
     }
-    const element = document.querySelector(targetId);
-    if (element) {
-      const headerOffset = 80; 
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.scrollY - headerOffset;
-      window.scrollTo({ top: offsetPosition, behavior: "smooth" });
-    }
+    setIsMenuOpen(false);
   };
 
   const handleDashboardLogin = () => {
@@ -31,7 +57,7 @@ export default function Navbar() {
   const NavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
     <a 
       href={href}
-      onClick={(e) => handleSmoothScroll(e, href)}
+      onClick={(e) => handleSectionNavigation(e, href)}
       className="text-slate-600 dark:text-slate-300 hover:text-brand-600 dark:hover:text-brand-400 font-semibold transition text-sm cursor-pointer whitespace-nowrap"
     >
       {children}
@@ -39,14 +65,14 @@ export default function Navbar() {
   );
 
   return (
-    <nav className="fixed w-full top-0 z-50 bg-white/80 dark:bg-slate-950/90 backdrop-blur-md border-b border-slate-200/60 dark:border-slate-800/60 transition-colors duration-300">
+    <nav className="fixed w-full top-0 z-50 py-1.5 bg-white/80 dark:bg-slate-950/90 backdrop-blur-md border-b border-slate-200/60 dark:border-slate-800/60 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           
           {/* Logo */}
           <div 
             className="flex items-center gap-2.5 cursor-pointer group" 
-            onClick={(e) => handleSmoothScroll(e, "top")}
+            onClick={handleLogoClick}
           >
             <div className="w-9 h-9 bg-brand-600 dark:bg-brand-500 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-brand-500/20 group-hover:scale-105 transition-transform">
               I
@@ -59,8 +85,14 @@ export default function Navbar() {
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center space-x-5 lg:space-x-8">
             <div className="flex items-center space-x-6">
+               <a 
+                 onClick={handleLogoClick}
+                 className="text-slate-600 dark:text-slate-300 hover:text-brand-600 dark:hover:text-brand-400 font-semibold transition text-sm cursor-pointer whitespace-nowrap"
+               >
+                 {t("navbar.home")}
+               </a>
                <NavLink href="#features">{t("navbar.features")}</NavLink>
-               <NavLink href="#roles">{t("navbar.roles")}</NavLink>
+               <Link to="/about" className="text-slate-600 dark:text-slate-300 hover:text-brand-600 dark:hover:text-brand-400 font-semibold transition text-sm cursor-pointer whitespace-nowrap">{t("navbar.about")}</Link>
                <NavLink href="#contact">{t("navbar.contact")}</NavLink>
             </div>
             
@@ -103,13 +135,25 @@ export default function Navbar() {
       {isMenuOpen && (
         <div className="md:hidden bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800 px-4 py-6 space-y-6 shadow-xl animate-in slide-in-from-top-5 duration-300">
           <div className="flex flex-col gap-1">
-            <a onClick={(e) => handleSmoothScroll(e, "#features")} className="block text-slate-600 dark:text-slate-300 py-3 px-4 rounded-xl hover:bg-slate-50 dark:hover:bg-white/5 font-semibold transition">
+            <a 
+              onClick={handleLogoClick}
+              className="block text-slate-600 dark:text-slate-300 py-3 px-4 rounded-xl hover:bg-slate-50 dark:hover:bg-white/5 font-semibold transition cursor-pointer"
+            >
+              {t("navbar.home")}
+            </a>
+            <a 
+              onClick={(e) => handleSectionNavigation(e, "#features")} 
+              className="block text-slate-600 dark:text-slate-300 py-3 px-4 rounded-xl hover:bg-slate-50 dark:hover:bg-white/5 font-semibold transition cursor-pointer"
+            >
               {t("navbar.features")}
             </a>
-            <a onClick={(e) => handleSmoothScroll(e, "#roles")} className="block text-slate-600 dark:text-slate-300 py-3 px-4 rounded-xl hover:bg-slate-50 dark:hover:bg-white/5 font-semibold transition">
-              {t("navbar.roles")}
-            </a>
-            <a onClick={(e) => handleSmoothScroll(e, "#contact")} className="block text-slate-600 dark:text-slate-300 py-3 px-4 rounded-xl hover:bg-slate-50 dark:hover:bg-white/5 font-semibold transition">
+            <Link to="/about" onClick={() => setIsMenuOpen(false)} className="block text-slate-600 dark:text-slate-300 py-3 px-4 rounded-xl hover:bg-slate-50 dark:hover:bg-white/5 font-semibold transition">
+              {t("navbar.about")}
+            </Link>
+            <a 
+              onClick={(e) => handleSectionNavigation(e, "#contact")} 
+              className="block text-slate-600 dark:text-slate-300 py-3 px-4 rounded-xl hover:bg-slate-50 dark:hover:bg-white/5 font-semibold transition cursor-pointer"
+            >
               {t("navbar.contact")}
             </a>
           </div>

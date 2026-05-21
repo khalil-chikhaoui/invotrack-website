@@ -1,6 +1,8 @@
 {
     "navbar": {
+    "home": "Home",
     "features": "Features",
+    "about": "About Us",
     "roles": "Roles",
     "contact": "Contact",
     "dashboard": "Dashboard",
@@ -94,7 +96,7 @@
       "product": {
         "title": "Product",
         "features": "Features",
-        "roles": "Roles",
+        "contact": "Contact",
         "dashboard": "Dashboard"
       },
       "company": {
@@ -104,5 +106,155 @@
         "terms": "Terms of Service"
       }
     }
+  },
+  "about": {
+    "backHome": "Back to Home",
+    "title": "About Invotrack",
+    "subtitle": "Transforming business management through intelligent automation and intuitive design.",
+    "mission": {
+      "title": "Our Mission",
+      "description1": "At Invotrack, we believe every business—regardless of size—deserves access to enterprise-grade management tools. Our mission is to empower teams with an intuitive, data-driven platform that simplifies complex operations and drives sustainable growth.",
+      "description2": "We're committed to removing friction from daily workflows, enabling businesses to focus on what they do best: delivering exceptional value to their clients."
+    },
+    "why": {
+      "title": "Why Choose Invotrack",
+      "items": {
+        "reliability": {
+          "title": "Unmatched Reliability",
+          "desc": "Enterprise-grade infrastructure with 99.9% uptime guarantee. Your business data is always accessible and secure."
+        },
+        "innovation": {
+          "title": "Continuous Innovation",
+          "desc": "We evolve constantly with your business. Regular updates, new features, and AI-driven insights keep you ahead of competition."
+        },
+        "support": {
+          "title": "Expert Support",
+          "desc": "Dedicated support team available to help. From onboarding to optimization, we're with you every step of the way."
+        },
+        "security": {
+          "title": "Bank-Level Security",
+          "desc": "Industry-standard encryption and compliance certifications protect your sensitive business information."
+        }
+      }
+    },
+    "values": {
+      "title": "Our Core Values",
+      "description": "These principles guide everything we do and shape how we serve our customers.",
+      "items": {
+        "simplicity": {
+          "title": "Simplicity",
+          "desc": "Complex operations made simple. We eliminate unnecessary complexity so you can focus on growing your business."
+        },
+        "transparency": {
+          "title": "Transparency",
+          "desc": "Clear pricing, honest communication, and open policies. No hidden fees, no surprises."
+        },
+        "growth": {
+          "title": "Growth Mindset",
+          "desc": "We succeed when you succeed. Your achievements fuel our innovation and commitment to excellence."
+        }
+      }
+    }
+  },
+  "privacy": {
+    "backHome": "Back to Home",
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 2026",
+    "introduction": "At Invotrack, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our platform and services.",
+    "sections": {
+      "collection": {
+        "title": "Information We Collect",
+        "description1": "We collect information you provide directly, including account registration details, business information, payment data, and communication preferences.",
+        "description2": "We also automatically collect usage data through cookies and analytics to improve your experience. This includes device information, IP address, and interaction patterns.",
+        "list": ["Account credentials and profile information", "Business data and client information", "Payment and transaction records", "Communication history", "Device and usage analytics"]
+      },
+      "usage": {
+        "title": "How We Use Your Information",
+        "description1": "Your information enables us to provide, maintain, and improve our services. We use it to process transactions, communicate with you, and ensure platform security.",
+        "description2": "We analyze usage patterns to enhance features and identify opportunities to better serve your business needs.",
+        "list": ["Service delivery and account management", "Transaction processing and billing", "Security monitoring and fraud prevention", "Customer support and communications", "Analytics and service improvement"]
+      },
+      "sharing": {
+        "title": "Information Sharing",
+        "description1": "We do not sell your personal data. We only share information with trusted partners who help us operate our platform—payment processors, cloud providers, and security vendors.",
+        "description2": "These partners are contractually obligated to maintain the confidentiality and security of your information.",
+        "list": ["Payment processing partners (PCI compliant)", "Cloud infrastructure providers", "Security and analytics services", "Legal compliance when required by law"]
+      },
+      "security": {
+        "title": "Security Measures",
+        "description1": "We implement industry-leading security protocols including end-to-end encryption, regular security audits, and multi-factor authentication.",
+        "description2": "While we maintain robust security practices, no system is completely immune to breaches. We're transparent about incidents and respond immediately when they occur.",
+        "list": ["256-bit SSL encryption", "Regular penetration testing", "Multi-factor authentication", "Data encryption at rest and in transit", "Compliance with GDPR and CCPA"]
+      },
+      "retention": {
+        "title": "Data Retention",
+        "description1": "We retain your data for as long as necessary to provide services and comply with legal obligations. When you close your account, we securely delete your data within 30 days, except where required by law.",
+        "description2": "Backup copies are retained for a limited period to enable recovery in case of emergency."
+      },
+      "rights": {
+        "title": "Your Privacy Rights",
+        "description1": "Depending on your location, you have rights regarding your personal data. You can request access, correction, deletion, or portability of your information.",
+        "description2": "To exercise these rights, contact our privacy team. We respond to all requests within 30 days.",
+        "list": ["Access your personal data", "Correct inaccurate information", "Delete your account and data", "Export your data", "Opt-out of marketing communications"]
+      },
+      "contact": {
+        "title": "Contact Us",
+        "description1": "If you have questions about this Privacy Policy or our data practices, please reach out to our privacy team at contact@invotrack.de.",
+        "description2": "We're committed to working with you to resolve any privacy concerns."
+      }
+    },
+    "contactInfo": "Questions about your privacy? Contact us at contact@invotrack.de. We respond within 48 hours."
+  },
+  "terms": {
+    "backHome": "Back to Home",
+    "title": "Terms of Use",
+    "lastUpdated": "Last updated: January 2026",
+    "introduction": "These Terms of Use govern your access to and use of Invotrack's platform and services. By accessing our platform, you agree to be bound by these terms. If you don't agree, please don't use our services.",
+    "sections": {
+      "agreement": {
+        "title": "Agreement to Terms",
+        "description1": "By creating an account and using Invotrack, you represent that you're at least 18 years old and authorized to enter into this agreement on behalf of your business or organization.",
+        "description2": "You're responsible for maintaining the confidentiality of your account credentials and for all activity that occurs under your account."
+      },
+      "usage": {
+        "title": "Acceptable Use",
+        "description1": "You agree to use Invotrack only for lawful purposes and in ways that don't infringe on the rights of others or restrict their use and enjoyment.",
+        "description2": "Prohibited behavior includes harassment, obscenity, spam, violation of intellectual property rights, and any illegal activity.",
+        "list": ["Don't use the platform for illegal activities", "Don't transmit malware or harmful code", "Don't attempt unauthorized access", "Don't engage in fraudulent transactions", "Don't impersonate other users or entities"]
+      },
+      "intellectual": {
+        "title": "Intellectual Property Rights",
+        "description1": "Invotrack owns all intellectual property related to the platform, including software, design, content, and trademarks. Your use grants you a limited, non-exclusive license.",
+        "description2": "You retain ownership of your business data and client information. By using our platform, you grant us a license to process this data to provide our services.",
+        "list": ["Invotrack owns platform IP", "You own your business data", "Licensed for personal/business use only", "No resale or redistribution allowed", "Respect third-party IP rights"]
+      },
+      "liability": {
+        "title": "Limitation of Liability",
+        "description1": "Invotrack is provided 'as is' without warranties. To the fullest extent permitted by law, we're not liable for indirect, incidental, or consequential damages.",
+        "description2": "Our total liability for any claim is limited to the fees you paid in the past 12 months.",
+        "list": ["Platform provided as-is", "No implied warranties of fitness", "We're not liable for data loss", "No liability for third-party services", "Liability capped at 12-month fees"]
+      },
+      "termination": {
+        "title": "Termination",
+        "description1": "You can terminate your account at any time. Invotrack may terminate your account if you violate these terms or engage in prohibited behavior.",
+        "description2": "Upon termination, your access ends immediately, though you can export your data within 30 days."
+      },
+      "modifications": {
+        "title": "Changes to Terms",
+        "description1": "We may modify these terms at any time. We'll notify you of significant changes via email at least 30 days in advance.",
+        "description2": "Continued use of Invotrack after changes means you accept the updated terms."
+      },
+      "governing": {
+        "title": "Governing Law",
+        "description1": "These terms are governed by the laws of the European Union and specifically German law. Any disputes shall be resolved through arbitration or courts in Germany.",
+        "description2": "This choice of law doesn't deprive you of any protection under mandatory consumer protection laws."
+      },
+      "contact": {
+        "title": "Contact Information",
+        "description1": "For questions about these Terms of Use, please contact our legal team at contact@invotrack.de.",
+        "description2": "We're here to clarify any terms and address your concerns."
+      }
+    },
+    "contactInfo": "Have questions about our terms? Reach out to contact@invotrack.de. We're happy to help."
   }
 }

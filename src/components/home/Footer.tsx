@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router";
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -53,11 +54,11 @@ export default function Footer() {
             </li>
             <li>
               <a 
-                href="#roles" 
-                onClick={(e) => handleSmoothScroll(e, "#roles")}
+                href="#contact" 
+                onClick={(e) => handleSmoothScroll(e, "#contact")}
                 className="hover:text-brand-600 dark:hover:text-brand-400 transition-colors"
               >
-                {t("footer.sections.product.roles")}
+                {t("footer.sections.product.contact")}
               </a>
             </li>
             <li>
@@ -78,13 +79,13 @@ export default function Footer() {
           </h4>
           <ul className="space-y-3 text-sm">
             <li>
-              <a href="#" className="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">{t("footer.sections.company.about")}</a>
+              <Link to="/about" className="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">{t("footer.sections.company.about")}</Link>
             </li>
             <li>
-              <a href="#" className="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">{t("footer.sections.company.privacy")}</a>
+              <Link to="/privacy" className="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">{t("footer.sections.company.privacy")}</Link>
             </li>
             <li>
-              <a href="#" className="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">{t("footer.sections.company.terms")}</a>
+              <Link to="/terms" className="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">{t("footer.sections.company.terms")}</Link>
             </li>
           </ul>
         </div>

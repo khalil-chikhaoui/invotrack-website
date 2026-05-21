@@ -105,9 +105,9 @@ export const Icons = {
       ></path>
     </svg>
   ),
-  ArrowRight: () => (
+  ArrowRight: ({ className = "w-4 h-4 ml-2" }: { className?: string } = {}) => (
     <svg
-      className="w-4 h-4 ml-2"
+      className={className}
       fill="none"
       stroke="currentColor"
       viewBox="0 0 24 24"

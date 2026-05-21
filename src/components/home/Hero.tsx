@@ -42,9 +42,9 @@ export default function Hero() {
           >
             {t("hero.ctaCreate")} <Icons.ArrowRight />
           </button>
-          <button className="px-8 py-4 rounded-full bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-800 font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 transition flex items-center justify-center">
+         {/*  <button className="px-8 py-4 rounded-full bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-800 font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 transition flex items-center justify-center">
             {t("hero.ctaDemo")}
-          </button>
+          </button>*/}
         </div>
 
        {/* --- DASHBOARD MOCKUP --- */}
