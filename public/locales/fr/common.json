@@ -1,0 +1,114 @@
+{
+     "navbar": {
+    "features": "Fonctionnalités",
+    "roles": "Rôles",
+    "contact": "Contact",
+    "dashboard": "Tableau de bord",
+    "login": "Connexion"
+  },
+  "hero": {
+    "badge": "Ne perdez plus le fil de votre stock",
+    "titleLine1": "Gestion d'Entreprise",
+    "titleLine2": "Pensée pour la Croissance.",
+    "description": "Invotrack est le tableau de bord tout-en-un pour gérer votre équipe, suivre les articles clients et générer des factures instantanément.",
+    "ctaCreate": "Créer une Entreprise",
+    "ctaDemo": "Démo en Direct"
+  },
+  "mock": {
+    "nav": {
+      "dashboard": "Tableau de bord",
+      "clients": "Clients",
+      "items": "Articles",
+      "invoices": "Factures"
+    },
+    "pageTitle": "Facturation",
+    "newBtn": "Nouvelle Facture",
+    "status": {
+      "paid": "PAYÉ",
+      "open": "OUVERT"
+    }
+  },
+  "features": {
+    "badge": "Une Seule Plateforme",
+    "mainTitle": "Tout ce dont votre entreprise a besoin",
+    "subTitle": "Suivez vos clients, gérez vos stocks et générez des factures dans un tableau de bord unifié.",
+    "items": {
+      "role": {
+        "title": "Gestion des Rôles",
+        "desc": "Attribuez des accès précis. Les administrateurs contrôlent les paramètres, les managers gèrent les stocks et le personnel de livraison suit les envois."
+      },
+      "products": {
+        "title": "Produits & Services",
+        "desc": "Suivez les articles d'inventaire et les offres de services pour chaque client. Ne perdez jamais de vue ce que vous avez vendu."
+      },
+      "invoicing": {
+        "title": "Facturation Intelligente",
+        "desc": "Générez des factures professionnelles en un clic. Les graphiques et statistiques suivent automatiquement vos revenus."
+      }
+    }
+  },
+  "stats": {
+    "badge": "Données en temps réel",
+    "titleLine1": "Des Graphiques.",
+    "titleLine2": "Des Statistiques.",
+    "description": "Invotrack ne se contente pas de stocker des données ; il les visualise. Obtenez des aperçus instantanés des articles les plus vendus et des performances de l'équipe.",
+    "list": [
+      "Suivi de la croissance des revenus",
+      "Métriques d'acquisition clients",
+      "Taux de rotation des stocks"
+    ],
+    "visual": {
+      "revenue": "Revenu Mensuel",
+      "items": "Total Articles",
+      "active": "Actifs",
+      "clients": "Clients"
+    }
+  },
+  
+  "contact": {
+    "title": "Lancez votre entreprise sur Invotrack.",
+    "description": "Prêt à organiser votre équipe ? Créez une entreprise, invitez des administrateurs et commencez à apporter de la valeur à vos clients dès aujourd'hui.",
+    "support": { "title": "Assistance" },
+    "form": {
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Adresse Email",
+      "message": "Message",
+      "submit": "Envoyer le message",
+      "placeholders": {
+        "firstName": "Jean",
+        "lastName": "Dupont",
+        "message": "Je souhaite créer une entreprise..."
+      }
+    },
+    "success": {
+      "title": "Message Envoyé !",
+      "subtitle": "Nous vous aiderons à configurer votre entreprise sous peu.",
+      "reset": "Envoyer un autre"
+    }
+    
+  
+},
+
+  "footer": {
+    "tagline": "Suivez, Facturez, Livrez. Conçu pour la vitesse.",
+    "rights": "Tous droits réservés.",
+    "backToTop": "Retour en haut",
+    "sections": {
+      "product": {
+        "title": "Produit",
+        "features": "Fonctionnalités",
+        "roles": "Rôles",
+        "dashboard": "Tableau de bord"
+      },
+      "company": {
+        "title": "Entreprise",
+        "about": "À propos",
+        "privacy": "Confidentialité",
+        "terms": "Conditions"
+      }
+    }
+  }
+
+
+}

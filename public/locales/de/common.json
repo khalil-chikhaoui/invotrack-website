@@ -1,0 +1,111 @@
+{
+    "navbar": {
+    "features": "Funktionen",
+    "roles": "Rollen",
+    "contact": "Kontakt",
+    "dashboard": "Dashboard",
+    "login": "Anmelden"
+  },
+  "hero": {
+    "badge": "Verlieren Sie nie den Überblick über den Bestand",
+    "titleLine1": "Unternehmensführung",
+    "titleLine2": "Bereit für Wachstum.",
+    "description": "Invotrack ist das All-in-One-Dashboard zur Verwaltung Ihres Teams, zur Verfolgung von Kundenartikeln und zur sofortigen Erstellung von Rechnungen.",
+    "ctaCreate": "Unternehmen erstellen",
+    "ctaDemo": "Live-Demo"
+  },
+  "mock": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "clients": "Kunden",
+      "items": "Artikel",
+      "invoices": "Rechnungen"
+    },
+    "pageTitle": "Abrechnung & Rechnungen",
+    "newBtn": "Neue Rechnung",
+    "status": {
+      "paid": "BEZAHLT",
+      "open": "OFFEN"
+    }
+  }
+  ,
+  "features": {
+    "badge": "Eine Plattform",
+    "mainTitle": "Alles, was Ihr Unternehmen braucht",
+    "subTitle": "Verfolgen Sie Kunden, verwalten Sie Bestände und erstellen Sie Rechnungen in einem einheitlichen Dashboard.",
+    "items": {
+      "role": {
+        "title": "Rollenverwaltung",
+        "desc": "Präzise Zugriffsberechtigungen vergeben. Admins steuern Einstellungen, Manager verwalten den Bestand und Lieferanten verfolgen Sendungen."
+      },
+      "products": {
+        "title": "Produkte & Dienstleistungen",
+        "desc": "Verfolgen Sie Lagerartikel und Serviceangebote für jeden Kunden. Verlieren Sie nie den Überblick über Verkäufe oder Außenstände."
+      },
+      "invoicing": {
+        "title": "Intelligente Rechnungstellung",
+        "desc": "Erstellen Sie professionelle Rechnungen mit einem Klick. Diagramme und Statistiken erfassen Umsätze automatisch bei Zahlungseingang."
+      }
+    }
+  },
+  "stats": {
+    "badge": "Datenbasiert",
+    "titleLine1": "Immer Diagramme.",
+    "titleLine2": "Immer Statistiken.",
+    "description": "Invotrack speichert Daten nicht nur; es visualisiert sie. Erhalten Sie sofortige Einblicke in meistverkaufte Artikel, Kundenaktivität und Teamleistung.",
+    "list": [
+      "Umsatzwachstums-Tracking",
+      "Kennzahlen zur Kundengewinnung",
+      "Lagerumschlagshäufigkeit"
+    ],
+    "visual": {
+      "revenue": "Monatlicher Umsatz",
+      "items": "Gesamtartikel",
+      "active": "Aktive",
+      "clients": "Kunden"
+    }
+  },
+  
+  "contact": {
+    "title": "Bringen Sie Ihr Unternehmen zu Invotrack.",
+    "description": "Bereit, Ihr Team zu organisieren? Erstellen Sie ein Unternehmen, laden Sie Admins ein und liefern Sie Ihren Kunden noch heute Mehrwert.",
+    "support": { "title": "Support" },
+    "form": {
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail-Adresse",
+      "message": "Nachricht",
+      "submit": "Nachricht senden",
+      "placeholders": {
+        "firstName": "Max",
+        "lastName": "Mustermann",
+        "message": "Ich möchte ein Unternehmen gründen..."
+      }
+    },
+    "success": {
+      "title": "Nachricht gesendet!",
+      "subtitle": "Wir helfen Ihnen in Kürze bei der Einrichtung Ihres Unternehmens.",
+      "reset": "Weitere senden"
+    
+  }
+},
+"footer": {
+    "tagline": "Verfolgen, Abrechnen, Liefern. Auf Speed gebaut.",
+    "rights": "Alle Rechte vorbehalten.",
+    "backToTop": "Nach oben",
+    "sections": {
+      "product": {
+        "title": "Produkt",
+        "features": "Funktionen",
+        "roles": "Rollen",
+        "dashboard": "Dashboard"
+      },
+      "company": {
+        "title": "Unternehmen",
+        "about": "Über uns",
+        "privacy": "Datenschutz",
+        "terms": "AGB"
+      }
+    }
+  }
+}

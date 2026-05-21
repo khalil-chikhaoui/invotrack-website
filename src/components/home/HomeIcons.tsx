@@ -17,7 +17,7 @@ export const Icons = {
   ),
   Check: () => (
     <svg
-      className="w-5 h-5 text-emerald-500"
+      className="w-5 h-5 text-emerald-600"
       fill="none"
       stroke="currentColor"
       viewBox="0 0 24 24"

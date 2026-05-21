@@ -1,22 +1,22 @@
+import { useTranslation } from "react-i18next";
 import { Icons } from "./HomeIcons";
 
 export default function Features() {
+  const { t } = useTranslation();
+
   const FEATURES = [
     {
-      title: "Role Management",
-      desc: "Assign precise access. Admins control settings, Managers handle stock, Viewers monitor data, and Deliver staff track shipments.",
+      key: "role",
       icon: <Icons.Users />,
       colorClass: "bg-brand-100 dark:bg-brand-900/30 text-brand-600 dark:text-brand-400",
     },
     {
-      title: "Products & Services",
-      desc: "Track inventory items and service offerings for every client. Never lose track of what you sold or what you owe.",
+      key: "products",
       icon: <Icons.Box />,
       colorClass: "bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400",
-    },
+    }, 
     {
-      title: "Smart Invoicing",
-      desc: "Generate professional invoices with one click. Charts and stats track revenue automatically as invoices are paid.",
+      key: "invoicing",
       icon: <Icons.Document />,
       colorClass: "bg-amber-100 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400",
     },
@@ -27,13 +27,13 @@ export default function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-brand-600 dark:text-brand-400 font-semibold tracking-wide uppercase text-sm">
-            One Platform
+            {t("features.badge")}
           </h2>
           <p className="mt-2 text-3xl font-bold text-slate-900 dark:text-white sm:text-4xl">
-            Everything your business needs
+            {t("features.mainTitle")}
           </p>
           <p className="mt-4 text-slate-500 dark:text-slate-400">
-            Track clients, manage inventory, and generate invoices in a unified dashboard.
+            {t("features.subTitle")}
           </p>
         </div>
 
@@ -47,10 +47,10 @@ export default function Features() {
                 {feature.icon}
               </div>
               <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">
-                {feature.title}
+                {t(`features.items.${feature.key}.title`)}
               </h3>
               <p className="text-slate-500 dark:text-slate-400 leading-relaxed">
-                {feature.desc}
+                {t(`features.items.${feature.key}.desc`)}
               </p>
             </div>
           ))}

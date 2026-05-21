@@ -4,7 +4,6 @@ import Features from "../components/home/Features";
 import StatsTeaser from "../components/home/StatsTeaser";
 import Contact from "../components/home/Contact";
 import Footer from "../components/home/Footer";
-import Pricing from "../components/home/Pricing";
 
 const Home = () => {
   return (
@@ -12,9 +11,9 @@ const Home = () => {
     selection:bg-brand-500 selection:text-white transition-colors duration-300">
       <Navbar />
       <Hero />
-      <Features />
-      <StatsTeaser />
-      <Pricing />
+      <Features /> 
+      <StatsTeaser /> 
+      
       <Contact />
       <Footer />
     </div>

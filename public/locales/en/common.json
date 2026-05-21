@@ -1,0 +1,108 @@
+{
+    "navbar": {
+    "features": "Features",
+    "roles": "Roles",
+    "contact": "Contact",
+    "dashboard": "Dashboard",
+    "login": "Login"
+  },
+  "hero": {
+    "badge": "Stop losing track of inventory",
+    "titleLine1": "Business Management",
+    "titleLine2": "Built for Growth.",
+    "description": "Invotrack is the all-in-one dashboard to manage your team, track client items, and generate invoices instantly. Data-driven decisions start here.",
+    "ctaCreate": "Create Business",
+    "ctaDemo": "Live Demo"
+  },
+  "mock": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "clients": "Clients",
+      "items": "Items",
+      "invoices": "Invoices"
+    },
+    "pageTitle": "Billing & Invoices",
+    "newBtn": "New Invoice",
+    "status": {
+      "paid": "PAID",
+      "open": "OPEN"
+    }
+  },
+  "features": {
+    "badge": "One Platform",
+    "mainTitle": "Everything your business needs",
+    "subTitle": "Track clients, manage inventory, and generate invoices in a unified dashboard.",
+    "items": {
+      "role": {
+        "title": "Role Management",
+        "desc": "Assign precise access. Admins control settings, Managers handle stock, Viewers monitor data, and Deliver staff track shipments."
+      },
+      "products": {
+        "title": "Products & Services",
+        "desc": "Track inventory items and service offerings for every client. Never lose track of what you sold or what you owe."
+      },
+      "invoicing": {
+        "title": "Smart Invoicing",
+        "desc": "Generate professional invoices with one click. Charts and stats track revenue automatically as invoices are paid."
+      }
+    }
+  },
+  "stats": {
+    "badge": "Data Driven",
+    "titleLine1": "Always Charts.",
+    "titleLine2": "Always Stats.",
+    "description": "Invotrack doesn't just store data; it visualizes it. Get instant insights into best-selling items, client activity, and team performance.",
+    "list": [
+      "Revenue Growth tracking",
+      "Client Acquisition metrics",
+      "Inventory Turnover rates"
+    ],
+    "visual": {
+      "revenue": "Monthly Revenue",
+      "items": "Total Items",
+      "active": "Active",
+      "clients": "Clients"
+    }
+  },
+  "contact": {
+    "title": "Get your business on Invotrack.",
+    "description": "Ready to organize your team? Create a business, invite admins and managers, and start delivering value to your clients today.",
+    "support": { "title": "Support" },
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "message": "Message",
+      "submit": "Send Message",
+      "placeholders": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "message": "I want to create a business..."
+      }
+    },
+    "success": {
+      "title": "Message Sent!",
+      "subtitle": "We'll help you setup your business shortly.",
+      "reset": "Send another"
+    }
+  },
+  "footer": {
+    "tagline": "Track, Invoice, Deliver. Built for speed.",
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top",
+    "sections": {
+      "product": {
+        "title": "Product",
+        "features": "Features",
+        "roles": "Roles",
+        "dashboard": "Dashboard"
+      },
+      "company": {
+        "title": "Company",
+        "about": "About Us",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service"
+      }
+    }
+  }
+}
